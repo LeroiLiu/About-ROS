@@ -1,0 +1,11 @@
+<launch>  
+
+  <arg name="cmd_topic" default="cmd_vel" />  
+
+  <node pkg="smartcar_teleop" type="keyboard.py" name="smartcar_teleop">  
+
+    <remap from="cmd_vel" to="$(arg cmd_topic)" />  
+
+  </node>  
+
+</launch>
