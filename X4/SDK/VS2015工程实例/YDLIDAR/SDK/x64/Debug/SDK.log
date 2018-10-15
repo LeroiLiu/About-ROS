@@ -1,0 +1,20 @@
+﻿  ydlidar_driver.cpp
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(57): warning C4312: “reinterpret_cast”: 从“_size_t”转换到更大的“HANDLE”
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(58): warning C4312: “reinterpret_cast”: 从“_size_t”转换到更大的“HANDLE”
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(79): warning C4312: “reinterpret_cast”: 从“_size_t”转换到更大的“HANDLE”
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(81): warning C4312: “reinterpret_cast”: 从“_size_t”转换到更大的“HANDLE”
+  serial.cpp
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\v8stdint.h(46): error C2065: “THREAD_PROC”: 未声明的标识符
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\v8stdint.h(46): error C2065: “thread_proc_t”: 未声明的标识符
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\v8stdint.h(46): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\v8stdint.h(46): error C2513: “int”: 在“=”前没有声明变量
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\v8stdint.h(46): error C2143: 语法错误: 缺少“;”(在“(”的前面)
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\v8stdint.h(46): error C2062: 意外的类型“void”
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(30): error C2061: 语法错误: 标识符“createThreadAux”
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(34): error C2334: “{”的前面有意外标记；跳过明显的函数体
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(47): error C2988: 不可识别的模板声明/定义
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(47): error C2059: 语法错误:“:”
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\include\thread.h(101): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+  “C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe”中的内部编译器错误
+    请选择 Visual C++ 
+  “帮助”菜单上的“技术支持”命令，或打开技术支持帮助文件来获得详细信息

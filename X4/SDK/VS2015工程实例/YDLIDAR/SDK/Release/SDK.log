@@ -1,0 +1,15 @@
+﻿  unix_serial.cpp
+  unix_timer.cpp
+  win_serial.cpp
+src\impl\windows\win_serial.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+src\impl\windows\win_serial.cpp(312): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+  win_timer.cpp
+  serial.cpp
+  ydlidar_driver.cpp
+C:\Users\EAI\Desktop\VS2015工程实例\YDLIDAR\SDK\include\ydlidar_driver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+src\ydlidar_driver.cpp(874): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+src\ydlidar_driver.cpp(891): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+src\ydlidar_driver.cpp(894): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+src\ydlidar_driver.cpp(902): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+src\ydlidar_driver.cpp(912): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+  SDK.vcxproj -> C:\Users\EAI\Desktop\VS2015工程实例\YDLIDAR\Release\SDK.lib

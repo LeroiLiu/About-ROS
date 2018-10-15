@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\impl">
+      <UniqueIdentifier>{f581d771-ee1a-4073-995c-be010a6ffeb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\impl\windows">
+      <UniqueIdentifier>{35f167d3-fb21-4061-8c8b-efe2d6a7fca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\impl\unix">
+      <UniqueIdentifier>{ac501dad-dcc4-406d-90f6-6757a3219880}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\locker.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\serial.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\thread.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\v8stdint.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ydlidar_driver.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\impl\unix\unix.h">
+      <Filter>src\impl\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\impl\unix\unix_serial.h">
+      <Filter>src\impl\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\impl\unix\unix_timer.h">
+      <Filter>src\impl\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\impl\windows\win.h">
+      <Filter>src\impl\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\impl\windows\win_serial.h">
+      <Filter>src\impl\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\impl\windows\win_timer.h">
+      <Filter>src\impl\windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\serial.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ydlidar_driver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\impl\unix\unix_serial.cpp">
+      <Filter>src\impl\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\impl\unix\unix_timer.cpp">
+      <Filter>src\impl\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\impl\windows\win_serial.cpp">
+      <Filter>src\impl\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\impl\windows\win_timer.cpp">
+      <Filter>src\impl\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

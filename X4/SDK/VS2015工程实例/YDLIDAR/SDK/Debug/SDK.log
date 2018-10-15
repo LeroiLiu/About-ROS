@@ -1,0 +1,9 @@
+﻿  ydlidar_driver.cpp
+  serial.cpp
+  win_timer.cpp
+  win_serial.cpp
+c:\users\eai\desktop\vs2015工程实例\ydlidar\sdk\src\impl\windows\win_serial.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  unix_timer.cpp
+  unix_serial.cpp
+  正在生成代码...
+  SDK.vcxproj -> C:\Users\EAI\Desktop\VS2015工程实例\YDLIDAR\Debug\SDK.lib
